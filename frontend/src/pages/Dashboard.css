@@ -1,0 +1,69 @@
+.main_BOX{
+  width: 99%;
+  height: 90vh;
+  padding: 10px 20px;
+  margin: 0;
+}
+.controller{
+  display: flex;
+  width: 100%;
+  height: 6vh;
+  justify-content: center;
+  border-radius: 3px;
+  list-style: none;
+  align-items: center;
+  background-color: #A7C1A8;
+  box-shadow: rgb(87, 90, 92) 3px 3px 6px 0px inset, rgba(90, 85, 85, 0.5) -3px -3px 6px 1px inset;
+}
+
+.box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+.box input{
+  width: 80%;
+  height: 50px;
+}
+.box button{
+  width: 19%;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+
+.code-box{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-box .left{
+  width: 78%;
+  height: 98%;
+}
+.code-box .right{
+  width: 25%;
+  height: 97%;
+  display: flex;
+  flex-direction: column;  
+}
+
+.code-box .right .up{
+  border: 1px solid yellow;
+  height: 40%;
+  width: 100%;
+  overflow: auto;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+.code-box .right .down{
+  height: 60%;
+  width: 100%;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 0;
+  padding: 1px;
+  text-align: center;
+  background-color: #A7C1A8;
+}
+
+.container-main{
+  padding-inline: 2px 2px;
+  background-color: #A7C1A8;
+  /* border: 1px solid red; */
+  height: 100vh;
+  width: 99vw;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
